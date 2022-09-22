@@ -1,0 +1,46 @@
+/* body{
+    color: dodgerblue;
+}
+h1{
+    color:darkmagenta;
+    font-size: 2rem;
+}
+h2{
+    color: crimson;
+    font: optional;
+}
+p{
+    color: green;
+}
+
+h1,h2{
+    color: black;
+} */
+/* #id1{
+    color: yellow;
+    background: black;
+}
+
+#id2{
+    color: white;
+    background: black;
+}
+
+/* class selector */
+/* .red{
+    color: red;
+}
+.orange{
+    color: orange;
+    background-color: grey;
+} */
+/* div{
+    background: forestgreen;
+}
+span{
+    text-transform: uppercase;
+} */
+
+p{
+    color: blueviolet;
+}
