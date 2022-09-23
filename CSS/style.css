@@ -41,6 +41,27 @@ span{
     text-transform: uppercase;
 } */
 
-p{
+h1{
     color: blueviolet;
+}
+
+*{
+    margin: 1;
+}
+.navbar{
+    background: red;
+    height: 100px;
+    color: aliceblue;
+    font: 3rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.banner{
+    background: red;
+    min-height: 100vh;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: blue;
 }

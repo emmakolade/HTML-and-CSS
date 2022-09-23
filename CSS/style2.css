@@ -1,0 +1,54 @@
+.two{
+    text-indent: 1rem;
+    text-align: center;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    line-height: 2em;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    text-transform:capitalize;
+
+}
+a{
+    font-size: 15px;
+    text-decoration:none;
+}
+/* css box model */
+h1{
+    background: red;
+    /* padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px; */
+    padding: 20px;
+    margin-right: 500px;
+    margin: 0%; 
+    border-style:dashed;
+    border-width: 10px;
+    border-color:cyan;
+}
+p{
+    background: yellow;
+    /* padding:30px 20px; */
+    padding:30px;
+    border-radius: 50px;
+    margin: 0%;
+    border-style: double;
+    
+}
+.buttons{
+    margin: 3rem;
+}
+a{
+    background: blue;
+    text-decoration:none;
+    padding: 1.2rem 1.5rem;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#one{
+    
+}

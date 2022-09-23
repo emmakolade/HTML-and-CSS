@@ -1,12 +1,29 @@
 
+h3{
+    font-size: 3rem;
+    
+}
+.parent{
+    width: 500px;
+    height:500px;
+    background: red
+}
 
-
-
-
-
-
-
-
+.child{
+    width: 100%;
+    height: 50px;
+    background: blue
+} */
+/* .parent {
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+}
+.child {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+} */
 
 /* #id1{
     color: #fff;
