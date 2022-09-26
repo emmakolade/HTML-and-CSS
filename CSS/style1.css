@@ -1,40 +1,116 @@
+/* * {
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: none;
+}
+ul a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  background: black;
+  color: brown;
+  margin: 15px 15px;
+  display: inline-block;
+  padding: 10px 10px;
+}
 
-h3{
-    font-size: 3rem;
-    
-}
-.parent{
-    width: 500px;
-    height:500px;
-    background: red
-}
-
-.child{
-    width: 100%;
-    height: 50px;
-    background: blue
-} */
-/* .parent {
-  width: 50vw;
-  height: 50vh;
-  background-color: red;
-}
-.child {
-  width: 100vw;
-  height: 100vh;
+div {
   background: blue;
+  margin: 10px;
+  color: white;
+}
+.none {
+  display: none;
+}
+.opacity{
+   visibility:calc(0);
+} */
+/* div {
+  height: 70px;
+  min-height: 12vh;
+  color: red;
+}
+.image1 {
+  background: url("./Kolade.png");
+  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: round;
+  background-size: cover;
+  background-position: top;
+
+} */
+/* body {
+  display: flex;
+}
+div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+}
+.one {
+  background: linear-gradient(red, yellow);
+}
+.two {
+  background: linear-gradient(blue, green);
+}
+.three {
+  background: linear-gradient(to right, yellow, red, blue);
+}
+.four {
+  background: linear-gradient(315deg, orange, teal);
+}
+.five {
+  background: linear-gradient(rgba(233, 233, 233, 1), rgba(255, 0, 0, 1));
 } */
 
-/* #id1{
-    color: #fff;
-    background: rgba(0, 0, 0, 0.603)
+div {
+  min-height: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: orangered;
 }
-
-#id2{
-    color: hsl(171, 33%, 57%);
-    background: lightcyan;
+.banner {
+  background: linear-gradient(rgba(), rgba(), url("./Kolade.png"));
 }
-
-body{
-    background-color:crimson;
-} */
+.banner {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#88bfe8+0,9bf279+100 */
+  background: #88bfe8; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #88bfe8 0%,
+    #9bf279 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #88bfe8 0%,
+    #9bf279 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #88bfe8 0%,
+    #9bf279 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#88bfe8', endColorstr='#9bf279',GradientType=0 ); /* IE6-9 */
+}
+.go {
+  border: 5px solid brown;
+  padding: 10px;
+  overflow: hidden;
+}
+img {
+  float: left;
+}
+p {
+  clear: left;
+}

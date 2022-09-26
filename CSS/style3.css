@@ -1,0 +1,101 @@
+/* button{
+    background: red;
+    font-size: 40px;
+    color: aliceblue;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+div{
+    border: 3px solid red;
+    background: yellow;
+    margin-top: 40px;
+    position: static;
+}
+.one{
+    background: blue;
+    position: relative;
+    left: 10x;
+}
+.two{
+    background: greenyellow;
+    top: 10px;
+}
+.special{
+    background: orangered;
+    font-size: 20px;
+    position:absolute;
+    top: 50px;
+} */
+
+/* body {
+  background: yellowgreen;
+}
+
+.banner {
+  background: blueviolet;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width:600px){
+    body{
+        background: red;
+    }
+    .banner{
+        background: chartreuse;
+    }
+} */
+
+/* p::before{
+    content: "hello ";
+    font-size: bold;
+    display: block;
+    font-size: 3rem;
+    color: aquamarine;
+}
+p::after{
+    content: "after kolade";
+    font-size: bold;
+    font-size: 3rem;
+    color: aquamarine;
+}
+div:hover::after
+div:hover::before */
+
+/* p::first-line{
+    font-weight: bold;
+}
+p::first-letter
+{
+    font-size: 3rem;
+}
+p:hover{
+    font-size: 40px;
+    color: blue;
+    background: yellowgreen;
+    text-decoration: dashed;
+} */
+
+/* a:link:hover{
+    color: brown;
+}
+
+.one{
+    transition-property: background;
+    transition-duration: 2ms;
+}
+
+/* css variables */
+:root{
+    --primaryColor: #1313fa;
+    --mainTransition: all 4s linear;
+    --primaryBlue
+}
+.heading{
+    color: var(--primaryColor);
+} 

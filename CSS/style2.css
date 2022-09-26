@@ -1,54 +1,87 @@
-.two{
-    text-indent: 1rem;
-    text-align: center;
-    font-weight: 100;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: blue;
-    line-height: 2em;
-    letter-spacing: 4px;
-    word-spacing: 20px;
-    text-transform:capitalize;
-
+.two {
+  text-indent: 1rem;
+  text-align: center;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: blue;
+  line-height: 2em;
+  letter-spacing: 4px;
+  word-spacing: 20px;
+  text-transform: capitalize;
 }
-a{
-    font-size: 15px;
-    text-decoration:none;
+a {
+  font-size: 15px;
+  text-decoration: none;
 }
 /* css box model */
-h1{
-    background: red;
-    /* padding-top: 50px;
+h1 {
+  background: red;
+  /* padding-top: 50px;
     padding-left: 20px;
     padding-bottom: 50px;
     padding-right: 20px; */
-    padding: 20px;
-    margin-right: 500px;
-    margin: 0%; 
-    border-style:dashed;
-    border-width: 10px;
-    border-color:cyan;
+  padding: 20px;
+  margin-right: 500px;
+  margin: 0%;
+  border-style: dashed;
+  border-width: 10px;
+  border-color: cyan;
 }
-p{
-    background: yellow;
-    /* padding:30px 20px; */
-    padding:30px;
-    border-radius: 50px;
-    margin: 0%;
-    border-style: double;
-    
+p {
+  background: yellow;
+  /* padding:30px 20px; */
+  padding: 30px;
+  border-radius: 50px;
+  margin: 0%;
+  border-style: double;
 }
-.buttons{
-    margin: 3rem;
+.buttons {
+  margin: 3rem;
 }
-a{
-    background: blue;
-    text-decoration:none;
-    padding: 1.2rem 1.5rem;
-    color: black;
-    text-transform: uppercase;
-    cursor: pointer;
+a {
+  background: blue;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-#one{
-    
+h3 {
+  font-size: 3rem;
+}
+.parent {
+  width: 500px;
+  height: 500px;
+  background: red;
+}
+
+.child {
+  width: 100%;
+  height: 50px;
+  background: blue;
+}
+*/ .parent {
+  width: 50vw;
+  height: 50vh;
+  background-color: red;
+}
+.child {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
+
+#id1 {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.603);
+}
+
+#id2 {
+  color: hsl(171, 33%, 57%);
+  background: lightcyan;
+}
+
+body {
+  background-color: crimson;
 }
